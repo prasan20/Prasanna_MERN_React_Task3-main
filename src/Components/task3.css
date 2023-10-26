@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+}
+.color-picker {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .color-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .color-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .color-square {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  
+  .color-square:hover {
+    border: 1px solid #777;
+  }
+  
+  .selected-color {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
